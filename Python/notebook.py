@@ -1,3 +1,5 @@
+# -*- coding: cp1252 -*-
+import time
 
 statusCheck = True
 while statusCheck == True:
@@ -14,6 +16,8 @@ while statusCheck == True:
         lbAdd = ("\n")
         textAdd = input("Write a new note: ")
         noteBook.write(textAdd)
+        noteBook.write(":::")
+        noteBook.write(time.strftime("%X %x"))
         noteBook.write(lbAdd)               
         noteBook.close()
     elif (userCmd == 3):
