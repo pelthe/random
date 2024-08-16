@@ -33,7 +33,7 @@ for day in temps:
  
 print("The highest temperature was:", highest)
 
-# Find days when at noon the temp was at least 20 C, turn this to def()
+# Find days when at noon the temp was over 20 C, turn this to def()
 hot_days = 0
  
 for day in temps:
