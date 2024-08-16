@@ -1,0 +1,18 @@
+'''
+myList = [1, 2, 4, 4, 1, 4, 2, 6, 2, 9]
+
+myList = list(set(myList))
+
+print("The list with unique elements only:")
+print(myList)
+'''
+
+myList = [1, 2, 4, 4, 1, 4, 2, 6, 2, 9]
+
+uniques = []
+for number in myList:s
+    if number not in uniques:
+        uniques.append(number)
+
+print("The list with unique elements only:")ss
+print(uniques)
