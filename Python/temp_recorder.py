@@ -1,12 +1,13 @@
 from pprint import pprint
 import random
 
+
 def matrix_random_number(n_filas, n_columnas, num_decimals=1):
     array = [[0 for _ in range(n_filas)] for _ in range(n_columnas)]
 
     for j in range(n_columnas):
         for i in range(n_filas):
-            array[j][i] = random.randint(0,100*10**num_decimals)/10**num_decimals
+            array[j][i] = random.randint(10,30)
     return array
 
 temps = matrix_random_number(12, 31)
