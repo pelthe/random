@@ -7,7 +7,7 @@ def matrix_random_number(n_filas, n_columnas, num_decimals=1):
 
     for j in range(n_columnas):
         for i in range(n_filas):
-            array[j][i] = random.randint(10,30)
+            array[j][i] = round(random.uniform(10.0,30.0),1)
     return array
 
 temps = matrix_random_number(12, 31)
